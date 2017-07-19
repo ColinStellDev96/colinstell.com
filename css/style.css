@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
   border: 0;
+  /*-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;*/
 }
 
 
@@ -93,6 +96,7 @@ header {
 }
 
 .showcase-main {
+  max-width: 1600px;
   display: inline-block;
   padding: 10px 0;
   margin: 0 auto;
@@ -158,10 +162,18 @@ article a:hover {
   font-weight: bold;
 }
 
+/*--- SKILS PAGE STYLES ---*/
+
+#code_craft_img img {
+  height: 100px;
+  width: auto;
+  margin: 0 auto;
+}
+
 /*--- ABOUT PAGE STYLES */
 
 #about-section-main {
-  margin: 0 auto;
+  margin: 20px 0px 20px 50px;
 }
 
 #headshot {
@@ -173,7 +185,7 @@ article a:hover {
   height: 300px;
   width: auto;
   border-radius: 50%;
-  margin-top: 15px;
+  margin: 15px 0 0 10px;
 }
 
 .about {
@@ -188,20 +200,8 @@ article a:hover {
   color: #134f5c;
 }
 
-.about,
-.fun p {
+.about p {
   font-size: 16px;
-}
-
-#about-fun {
-  float: right;
-}
-
-.fun h3 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #134f5c;
 }
 
 /* Footer */
