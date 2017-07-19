@@ -25,7 +25,6 @@ header {
   min-height: 125px;
   padding-top: 25px;
   background: #fff;
-  /*background: linear-gradient(to left,#134f5c, #fff);*/
   color: #134f5c;
   border-bottom: 3px solid #134f5c;
 }
@@ -49,7 +48,7 @@ header {
   float: right;
   display: inline;
   margin: 28px 28px;
-  padding-right: 32px;
+  padding-right: 30px;
 }
 
 .menu a {
@@ -167,7 +166,17 @@ article a:hover {
 #code_craft_img img {
   height: 100px;
   width: auto;
-  margin: 0 auto;
+}
+
+.dev_icon {
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.dev_icon img {
+    height: 100px;
+    width: auto;
 }
 
 /*--- ABOUT PAGE STYLES */
