@@ -162,7 +162,7 @@ article a:hover {
   font-weight: bold;
 }
 
-/*--- SKILS PAGE STYLES ---*/
+/*--- SKILLS PAGE STYLES ---*/
 
 #code_craft_img img {
   height: 100px;
@@ -172,12 +172,8 @@ article a:hover {
 
 /*--- ABOUT PAGE STYLES */
 
-#about-section-main {
-  margin: 20px 0px 20px 50px;
-}
-
 #headshot {
-  float: left;
+  display: inline-block;
   padding-bottom: 10px;
 }
 
@@ -189,7 +185,7 @@ article a:hover {
 }
 
 .about {
-  float: left;
+  display: inline-block;
   margin: 20px;
 }
 
@@ -212,8 +208,12 @@ footer {
   padding: 20px;
   color: #fff;
   background-color: #134f5c;
-  text-align: center;
   letter-spacing: 1px;
+  text-align: center;
+}
+
+.social {
+    display: inline-block;
 }
 
 .icon {
@@ -228,5 +228,5 @@ footer {
 }
 
 #footer_2 {
-  font-size: 14px;
+    font-size: 14px;
 }
