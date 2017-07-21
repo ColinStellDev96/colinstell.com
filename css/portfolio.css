@@ -1,0 +1,57 @@
+body {
+  font: 15px/1.5  "Titillium Web","Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  color: #222222;
+  letter-spacing: .5px;
+}
+
+.row {
+    margin: 40px 0 10px 0;
+}
+
+.thumbnail {
+    box-shadow: 0 0 2rem #134f5c;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #134f5c;
+    font-weight: bold;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #0a2b32;
+    padding: 0 5px 0 5px;
+}
+
+p {
+    padding: 0 5px 0 5px;
+}
+
+.btn {
+    width: 50%;
+    background: linear-gradient(#0a2b32, #134f5c);
+}
+
+.btn:hover {
+    background: linear-gradient(#134f5c, #2498b1);
+}
+
+.resume {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 20px 0 40px 0;
+    text-align: center;
+    color: #0a2b32;
+    font-weight: bold;
+}
+
+.resume i {
+    font-size: 50px;
+    text-align: center;
+    color: #0a2b32;
+    margin-right: 20px;
+}

@@ -1,0 +1,43 @@
+/* --- HEADER --- */
+
+.navbar {
+  min-height: 150px;
+  border-bottom: 3px solid #134f5c;
+  margin-bottom: 0;
+}
+
+/* --- LOGO --- */
+
+.navbar-brand img {
+  height: 100px;
+  width: auto;
+  margin-top: 5px;
+}
+
+/* --- NAVIGATION --*/
+
+.nav {
+  float: right;
+  margin: 28px 0;
+}
+
+.nav li a {
+  color: #134f5c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 15px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.nav a:hover {
+  color: #2498b1;
+  font-weight: bold;
+}
+
+.nav .current {
+  color: #2498b1;
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+/* Footer */
+
+footer {
+  width: 100%;
+  color: #fff;
+  background-color: #134f5c;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.col-xs-6 a i {
+  font-size: 70px;
+  padding: 10px;
+  color: #fff;
+}
+
+.col-xs-6 a i:hover {
+    color: #2498b1;
+}
+
+#footer_1 {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px 0 0 10px;
+}

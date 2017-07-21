@@ -1,0 +1,52 @@
+
+body {
+  font: 15px/1.5  "Titillium Web","Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  color: #222222;
+  letter-spacing: .5px;
+}
+
+
+/* --- BODY --- */
+
+.jumbotron {
+    background-image: url("/imgs/placeholder.jpg");
+    bottom-background-size: center;
+    height: 600px;
+}
+
+.text-center {
+  color: #134f5c;
+  padding: 10px 0 30px 0;;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+.row {
+    margin: 10px 0 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #134f5c;
+}
+
+.row img {
+    box-shadow: 0 0 6rem #134f5c;
+}
+
+.text {
+    padding-left: 25px;
+}
+
+h3 {
+    color: #0a2b32;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.col-md-6 a {
+    text-decoration: none;
+    color: #2498b1;
+    font-size: 18px;
+    font-weight: bold;
+}
