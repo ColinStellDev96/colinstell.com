@@ -1,14 +1,4 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  /*-webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;*/
-}
-
-
 body {
   font: 15px/1.5  "Titillium Web","Open Sans", sans-serif;
   padding: 0;
@@ -20,38 +10,27 @@ body {
 
 /* --- HEADER --- */
 
-header {
-  max-width: 100%;
-  min-height: 125px;
-  padding-top: 25px;
-  background: #fff;
-  color: #134f5c;
+.navbar {
+  min-height: 150px;
   border-bottom: 3px solid #134f5c;
 }
 
 /* --- LOGO --- */
 
-#logo {
-  float: left;
-  display: inline;
-  padding-left: 32px;
-}
-
-#logo img {
+.navbar-brand img {
   height: 100px;
   width: auto;
+  margin-top: 5px;
 }
 
 /* --- NAVIGATION --*/
 
-.menu {
+.nav {
   float: right;
-  display: inline;
-  margin: 28px 28px;
-  padding-right: 30px;
+  margin: 28px 0;
 }
 
-.menu a {
+.nav li a {
   color: #134f5c;
   text-decoration: none;
   text-transform: uppercase;
@@ -59,14 +38,15 @@ header {
   font-weight: bold;
   padding: 15px;
   letter-spacing: 1px;
+  margin-top: 10px;
 }
 
-.menu a:hover {
+.nav a:hover {
   color: #2498b1;
   font-weight: bold;
 }
 
-.menu .current {
+.nav .current {
   color: #2498b1;
   font-weight: bold;
 }
@@ -74,92 +54,40 @@ header {
 
 /* --- BODY --- */
 
-.wrapper {
-  max-width: 1600px;
-  margin: 20px auto;
+.jumbotron {
+    background-image: url("/imgs/placeholder.jpg");
+    bottom-background-size: center;
+    height: 600px;
 }
 
-#hero_img {
-  width: 1600px;
-  height: 600px;
-  clear: both;
-  margin: 20px auto;
-}
-
-.welcome {
-  text-align: center;
+.text-center {
   color: #134f5c;
   padding: 10px;
   text-transform: uppercase;
   font-size: 32px;
 }
 
-.showcase-main {
-  max-width: 1600px;
-  display: inline-block;
-  padding: 10px 0;
-  margin: 0 auto;
-  border-bottom: 3px solid #134f5c;
+.row {
+    margin: 10px 0 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #134f5c;
 }
 
-aside {
-  float: left;
-  margin: 0 auto;
+.row img {
+    box-shadow: 0 0 6rem #134f5c;
 }
 
-article {
-  float: left;
-  margin: 0 auto;
-  width: 50%;
-  height: auto;
-  padding: 0 0 0 20px;
-  margin: 0 10px;
+.text {
+    padding-left: 25px;
 }
 
-article h3 {
-  font-size: 20px;
-  font-weight: bold;
-  color: #134f5c;
-  text-transform: uppercase;
-  padding-bottom: 10px;
+.col-md-6 a {
+    text-decoration: none;
+    color: #2498b1;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-article p {
-  padding-bottom: 10px;
-}
-
-article a {
-  text-decoration: none;
-  color: #134f5c;
-  font-weight: bold;
-  font-size: 16px;
-  margin: 20px 0;
-  text-transform: uppercase;
-}
-
-article a:hover {
-  color: #2498b1;
-}
-
-/*-- "See More of My Work" TEXT --*/
-
-.more-work {
-  text-align: center;
-  padding: 10px;
-  font-size: 32px;
-  text-transform: uppercase;
-}
-
-.more-work a {
-  text-decoration: none;
-  color: #134f5c;
-  font-weight: bold;
-}
-
-.more-work a:hover {
-  color: #2498b1;
-  font-weight: bold;
-}
 
 /*--- SKILLS PAGE STYLES ---*/
 
@@ -225,10 +153,14 @@ footer {
     display: inline-block;
 }
 
-.icon {
-  width: 40px;
-  height: 40px;
-  padding: 10px;
+.social a i {
+  font-size: 70px;
+  padding: 5px 30px 10px 30px;
+  color: #fff;
+}
+
+.social a i:hover {
+    color: #2498b1;
 }
 
 #footer_1 {
