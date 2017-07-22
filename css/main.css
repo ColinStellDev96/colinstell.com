@@ -12,9 +12,11 @@ body {
 /* --- BODY --- */
 
 .jumbotron {
-    background-image: url("/imgs/placeholder.jpg");
-    bottom-background-size: center;
+    background-image: url("/imgs/colin_main copy 2.jpg");
+    background-size: cover;
     height: 600px;
+    margin-top: 20px;
+    box-shadow: 0 0 3rem #134f5c;
 }
 
 .text-center {
