@@ -1,5 +1,6 @@
 body {
   font: 15px/1.5  "Titillium Web","Open Sans", sans-serif;
+  font-size: 18px;
   padding: 0;
   margin: 0;
   background-color: #fff;
@@ -15,11 +16,39 @@ body {
     height: 400px;
     width: auto;
     border-radius: 50%;
-    box-shadow: 0 0 6rem #134f5c;
+    box-shadow: 0 0 3rem #134f5c;
+}
+
+#code_craft_img img {
+    height: 200px;
+    width: auto;
+    border-radius: 2rem;
 }
 
 h3 {
     color: #0a2b32;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+#row2 {
+    padding-bottom: 30px;
+}
+
+.text-center {
+    padding: 30px 0;
+}
+
+.text-center h4 {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #134f5c;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.text-center i {
+    font-size: 40px;
+    color:  #2498b1;
+    margin: 10px;
 }
