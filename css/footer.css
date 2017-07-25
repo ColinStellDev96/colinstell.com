@@ -8,6 +8,10 @@ footer {
   text-align: center;
 }
 
+#footerRow {
+    margin-bottom: 0;
+}
+
 .col-xs-6 a i {
   font-size: 65px;
   padding: 10px;
