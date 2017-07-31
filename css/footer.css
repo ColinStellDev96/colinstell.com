@@ -10,20 +10,26 @@ footer {
 
 #footerRow {
     margin-bottom: 0;
+    padding-bottom: 0;
 }
 
-.col-xs-6 a i {
+.col-xs-12 a i {
   font-size: 65px;
   padding: 10px;
   color: #fff;
 }
 
-.col-xs-6 a i:hover {
+.col-xs-12 a i:hover {
     color: #2498b1;
 }
 
 #footer_1 {
   font-weight: bold;
   font-size: 16px;
-  padding: 20px 0 0 10px;
+  padding: 0;
+}
+
+#footer_1 i {
+    font-size: 30px;
+    font-weight: bold;
 }
