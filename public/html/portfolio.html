@@ -4,30 +4,32 @@
     <meta charset="utf-8">
     <title>Colin Stell: Work</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/nav.css" type="text/css">
-    <link rel="stylesheet" href="css/portfolio.css" type="text/css">
-    <link rel="stylesheet" href="css/footer.css" type="text/css">
+    <link rel="stylesheet" href="/css/nav.css" type="text/css">
+    <link rel="stylesheet" href="/css/portfolio.css" type="text/css">
+    <link rel="stylesheet" href="/css/footer.css" type="text/css">
+    <link rel="icon" type="image/png" href="/brand/favicon_inverse.png" sizes="16x16">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/24beded546.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
       <header>
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">
-                  <img alt="Brand" src="/brand/color_logo_transparent@2x.png">
-                </a>
-              </div>
-                  <ul class="nav nav-pills">
-                      <li role="presentation"><a href="portfolio.html" class="portfolio">Portfolio</a></li>
-                      <li role="presentation"><a href="about.html">About</a></li>
-                      <li role="presentation"><a href="contact.html">Contact</a></li>
-                 </ul>
-            </div>
-          </nav>
+          <div class="inner-head">
+              <nav class="navbar navbar-default">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="/">
+                      <img alt="Brand" src="/brand/white_logo_transparent@2x.png">
+                    </a>
+                  </div>
+                      <ul class="nav nav-pills">
+                          <li role="presentation"><a href="/portfolio">Portfolio</a></li>
+                          <li role="presentation"><a href="/about">About</a></li>
+                          <li role="presnetation"><a href="/blog"> Blog</a></li>
+                          <li role="presentation"><a href="/contact">Contact</a></li>
+                     </ul>
+              </nav>
+          </div>
       </header>
 
         <div class="container">
@@ -39,7 +41,7 @@
           <div class="row">
               <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                  <img src="https://placeimg.com/800/500/tech" alt="project">
+                  <img src="https://placeimg.com/1000/700/tech" alt="project">
                     <h3>Project Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <div class="text-center"><a href="#" class="btn btn-primary" role="button">Visit Project</a></div>
@@ -48,8 +50,8 @@
 
               <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                  <img src="https://placeimg.com/800/500/tech" alt="project">
-                    <h3>Project Title</h3>
+                  <img class='showcase_img'src="https://placeimg.com/1000/700/tech" alt="project">
+                    <h3>ASTEROID (NASA API)<img src='/imgs/code_craft_logo.jpg' class="cc_icon"></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <div class="text-center"><a href="#" class="btn btn-primary" role="button">Visit Project</a></div>
                 </div>
@@ -57,7 +59,7 @@
 
               <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                  <img src="https://placeimg.com/800/500/tech" alt="project">
+                  <img src="https://placeimg.com/1000/700/tech" alt="project">
                     <h3>Project Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <div class="text-center"><a href="#" class="btn btn-primary" role="button">Visit Project</a></div>
@@ -70,8 +72,10 @@
             <div class="row">
                 <div class="col-sm-6 col-md-4">
                   <div class="thumbnail">
-                    <img src="https://placeimg.com/800/500/tech" alt="project">
-                      <h3>Project Title</h3>
+                    <img src="https://placeimg.com/1000/700/tech" alt="project">
+                      <h3>Richtr<a href="http://humandesign.com/" target="_blank"><img class="hd" src="/imgs/FKdZYKCA_400x400.png"></a></h3>
+                      <h4>Company: Human Design</h4>
+                      <h4>My Role: Project Manager</h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                       <div class="text-center"><a href="#" class="btn btn-primary" role="button">Visit Project</a></div>
                   </div>
@@ -79,8 +83,10 @@
 
                 <div class="col-sm-6 col-md-4">
                   <div class="thumbnail">
-                    <img src="https://placeimg.com/800/500/tech" alt="project">
-                      <h3>Project Title</h3>
+                    <img src="https://placeimg.com/1000/700/tech" alt="project">
+                      <h3>Rayback Collective<a href="http://humandesign.com/" target="_blank"><img class="hd" src="/imgs/FKdZYKCA_400x400.png"></a></h3>
+                      <h4>Company: Human Design</h4>
+                      <h4>My Role: Project Manager</h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                       <div class="text-center"><a href="#" class="btn btn-primary" role="button">Visit Project</a></div>
                   </div>
@@ -88,8 +94,10 @@
 
                 <div class="col-sm-6 col-md-4">
                   <div class="thumbnail">
-                    <img src="https://placeimg.com/800/500/tech" alt="project">
-                      <h3>Project Title</h3>
+                    <img src="https://placeimg.com/1000/700/tech" alt="project">
+                      <h3>CMBS<a href="http://humandesign.com/" target="_blank"><img class="hd" src="/imgs/FKdZYKCA_400x400.png"></a></h3>
+                      <h4>Company: Human Design</h4>
+                      <h4>My Role: Project Manager</h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                       <div class="text-center"><a href="#" class="btn btn-primary" role="button">Visit Project</a></div>
                   </div>

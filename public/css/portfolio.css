@@ -16,6 +16,20 @@ body {
     box-shadow: 0 0 2rem #134f5c;
 }
 
+h3 a .hd {
+    display: inline-block;
+    height: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.cc_icon {
+    display: inline-block;
+    height: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
 h2 {
     text-transform: uppercase;
     color: #134f5c;

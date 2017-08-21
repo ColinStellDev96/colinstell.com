@@ -1,15 +1,24 @@
 /* --- HEADER --- */
 
-.navbar {
-  min-height: 150px;
-  border-bottom: 3px solid #134f5c;
-  margin-bottom: 0;
+header {
+    height: 122px;
+    background-color: #134f5c;
+}
+
+.inner-head {
+    max-width: 2880px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+    height: 120px;
+    position: relative;
+    box-sizing: border-box;
 }
 
 /* --- LOGO --- */
 
 .navbar-brand img {
-  height: 100px;
+  height: 75px;
   width: auto;
   margin-top: 5px;
 }
@@ -21,15 +30,19 @@
   margin: 28px 0;
 }
 
+.navbar-default {
+    background-color: #134f5c;
+    border-color: #134f5c;
+}
+
 .nav li a {
-  color: #134f5c;
+  color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 26px;
-  font-weight: bold;
-  padding: 15px;
+  padding-left: 20px;
   letter-spacing: 1px;
-  margin-top: 10px;
+  margin-top: 3px;
 }
 
 .nav a:hover {
@@ -40,4 +53,4 @@
 .nav .current {
   color: #2498b1;
   font-weight: bold;
-} 
+}
