@@ -8,23 +8,46 @@ body {
   letter-spacing: .5px;
 }
 
-
 /* --- BODY --- */
 
-.jumbotron {
-    background-image: url("/imgs/colin_main copy 2.jpg");
-    background-size: cover;
-    height: 600px;
-    margin-top: 20px;
-    box-shadow: 0 0 3rem #134f5c;
+#mainhead {
+    margin: 20px 50px 20px 50px;
+    border: 2px solid #134f5c;
+    border-radius: 3px;
+    padding-top: 30px;
 }
 
-.text-center {
+#mainhead img {
+    height: 500px;
+    border: 2px solid #134f5c;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+#mainheadtxt h3 {
+    font-size: 45px;
+    color: #134f5c;
+    border: 2px solid #134f5c;
+    border-radius: 3px;
+    padding: 10px 0;
+}
+
+#mainheadtxt p {
+    padding: 10px;
+    border: 2px solid #134f5c;;
+    border-radius: 3px;
+    height: 380px;
+    font-size: 20px;
+}
+
+#quote {
+  clear: both;
   color: #134f5c;
   padding: 10px 0 30px 0;;
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 50px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .row {
@@ -34,7 +57,7 @@ body {
 }
 
 .row img {
-    box-shadow: 0 0 6rem #134f5c;
+    box-shadow: 0 0 4rem #134f5c;
 }
 
 .text {
