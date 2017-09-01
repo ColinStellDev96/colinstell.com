@@ -12,9 +12,8 @@ body {
 
 #mainhead {
     margin: 20px 50px 20px 50px;
-    border: 2px solid #134f5c;
-    border-radius: 3px;
     padding-top: 30px;
+    border: none;
 }
 
 #headshot img {
@@ -23,7 +22,7 @@ body {
     border: 2px solid #2498b1;
     border-radius: 3px;
     box-shadow: none;
-    padding: 0;
+    padding: 20px;;
 }
 
 #mainheadtxt h3 {
