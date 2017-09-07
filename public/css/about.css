@@ -8,47 +8,47 @@ body {
   letter-spacing: .5px;
 }
 
-.row {
-    margin: 30px 0 30px 0;
+#colinHead {
+    background: url('/imgs/colin_main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 20px 0;
+    padding: 10px;
+    border: solid 5px #134f5c;
+    border-radius: 5px;
 }
 
-.col-md-6 img {
-    height: 400px;
-    width: auto;
-    border-radius: 50%;
-    box-shadow: 0 0 3rem #134f5c;
-}
-
-#code_craft_img img {
-    height: 200px;
-    width: auto;
-    border-radius: 2rem;
-}
-
-h3 {
-    color: #0a2b32;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-#row2 {
-    padding-bottom: 30px;
-}
-
-.text-center {
-    padding: 30px 0;
-}
-
-.text-center h4 {
+h1 {
     display: inline-block;
+    margin: 20px auto;
+    font-size: 60px;
     text-transform: uppercase;
+    padding: 5px;
     color: #134f5c;
-    font-size: 40px;
-    margin: 10px;
+    border: solid 5px #134f5c;
+    border-radius: 5px;
 }
 
-.text-center i {
-    font-size: 40px;
-    color:  #2498b1;
-    margin: 10px;
+p {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    border: solid 5px #134f5c;
+    border-radius: 5px;
+}
+
+img {
+    height: 120px;
+}
+
+#codecraftHead {
+    background: url('/imgs/codecraft_cohort 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 20px 0;
+    padding: 10px;
+    border: solid 5px #134f5c;
+    border-radius: 5px;
 }
