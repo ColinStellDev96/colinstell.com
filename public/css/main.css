@@ -6,40 +6,70 @@ body {
   background-color: #fff;
   color: #222222;
   letter-spacing: .5px;
-  height: 100vh;
-  width: 100vw;
-}
-
-#wrapper {
-    height: 100vh;
-    width: 100vw;
-    background-image: url(/imgs/colinblackandwhite.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .8;
-    z-index: 0;
-    position: absolute;
-}
-
-#transparent {
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    z-index: 1;
 }
 
 
 /* --- BODY --- */
 
-.container-fluid {
-    height: 100vh;
-    width: 100vw;
+#headshot {
+    margin: 20px 0;
+    height: 400px;
+    border-radius: 10px;
+    border: solid 5px #134f5c;
+    padding: 5px;
 }
 
-h4 {
+#quote {
+    float: right;
+    height: 400px;
+    width: 526px;
     font-size: 50px;
-    color: #fff;
+    color: #134f5c;
     text-align: center;
     text-transform: uppercase;
-    font-style: italic;
+    margin: 20px 0;
+    border: solid 5px #134f5c;
+    border-radius: 10px;
+    padding: 30px 5px;
+}
+
+#home-section {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#home-section h1 {
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: #134f5c;
+    font-size: 40px;
+    border: solid 5px #134f5c;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.technology {
+    clear: both;
+    display: inline-block;
+    border: solid 5px #2498b1;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding: 50px 0;
+    background-color:#134f5c;
+}
+
+.technology h4 {
+    clear: both;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.technology i {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2498b1;
 }
