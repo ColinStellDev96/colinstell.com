@@ -15,6 +15,7 @@ body {
     background: url('/imgs/colin_main.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
     height: 700px;
     margin: 20px 0;
     padding: 10px;
@@ -25,7 +26,7 @@ body {
 #header-section h1 {
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: #134f5c;
+    color: #2498b1;
     font-size: 50px;
     border: solid 5px #134f5c;
     border-radius: 10px;
@@ -33,8 +34,8 @@ body {
 }
 
 #quote {
-    font-size: 50px;
-    color: #134f5c;
+    font-size: 40px;
+    color: #2498b1;
     text-align: center;
     text-transform: uppercase;
     margin: 20px 0;
@@ -61,7 +62,6 @@ body {
 }
 
 .technology {
-    clear: both;
     display: inline-block;
     border: solid 5px #2498b1;
     border-radius: 10px;

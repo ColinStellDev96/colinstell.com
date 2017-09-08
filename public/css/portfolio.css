@@ -27,6 +27,7 @@ body {
 }
 
 .project-img {
+    border: solid 5px #134f5c;
     border-radius: 20px;
 }
 
