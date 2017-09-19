@@ -1,0 +1,47 @@
+.nasa-cont h1 {
+    color: white;
+    font-size: 78px;
+}
+
+.nasa-cont p {
+    font-size: 20px;
+    color: black;
+    display:inline-block;
+    margin: 10px 20px 10px 0px;
+    opacity: .7;
+    text-transform: uppercase;
+    background-color: grey;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+.nasa-form {
+    margin: 20px 0;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#nasaStyle table {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: grey;
+    opacity: 0.9;
+}
+
+#nasaStyle table td, th {
+    color:black;
+    opacity: 1;
+}
+
+#nasaStyle table td {
+    margin: 10px 0;
+    border-bottom: 1px solid white;
+    border-right:1px solid white;
+}
+
+#nasaStyle .btn {
+    background-color: red;
+    font-weight: bold;
+    border-color: white;
+    margin-bottom: 50px;
+}

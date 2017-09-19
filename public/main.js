@@ -68,6 +68,14 @@ var mainRouter = new VueRouter({
             }
         },
         {
+            path:'/nasa',
+            component: function(resolve, reject) {
+                $.get('html/nasa.html', function(htmlFromServer){
+                    resolve({template:htmlFromServer});
+                });
+            }
+        },
+        {
             path:'/about',
             component: function(resolve, reject) {
                 $.get('/html/about.html', function(htmlFromServer){
