@@ -67,7 +67,22 @@ var mainRouter = new VueRouter({
                 });
             }
         },
-        // HI Colin, start ABOUT route here.
+        {
+            path:'/about',
+            component: function(resolve, reject) {
+                $.get('/html/about.html', function(htmlFromServer){
+                    resolve({template: htmlFromServer});
+                });
+            }
+        },
+        {
+            path:'/contact',
+            component: function(resolve, rejct) {
+                $.get('/html/contact.html', function(htmlFromServer){
+                    resolve({template: htmlFromServer});
+                });
+            }
+        }
     ]
 });
 

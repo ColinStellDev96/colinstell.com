@@ -45,12 +45,20 @@ header {
   margin-top: 3px;
 }
 
-.nav a:hover {
+.nav li a:hover {
   color: #2498b1;
   font-weight: bold;
+  background-color: none;
 }
 
-.nav .current {
+.nav li a:active {
   color: #2498b1;
   font-weight: bold;
+  background-color: none;
+}
+
+.nav li a:focus {
+      color: #2498b1;
+      font-weight: bold;
+      background-color: none;
 }

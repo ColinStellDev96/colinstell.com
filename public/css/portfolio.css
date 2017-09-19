@@ -8,7 +8,8 @@ body {
   letter-spacing: .5px;
 }
 
-#projects-main h1 {
+.projectTitle {
+    display: block;
     font-size: 50px;
     font-weight: bold;
     padding: 20px;
@@ -19,7 +20,7 @@ body {
     border-radius: 10px;
 }
 
-.row {
+#projects-main .row {
     margin: 20px 0;
     padding: 10px 0;
     border: solid 5px #134f5c;
@@ -29,9 +30,10 @@ body {
 .project-img {
     border: solid 5px #134f5c;
     border-radius: 20px;
+    height: 500px;
 }
 
-.col-md-6 h2 {
+.projectHead {
     display: inline-block;
     padding: 10px;
     font-size: 35px;
@@ -42,10 +44,12 @@ body {
     border-radius: 10px;
 }
 
-.col-md-6 p {
+.projectP {
     padding: 10px;
     border: solid 5px #134f5c;
     border-radius: 10px;
+    font-size: 18px;
+    text-align: left;
 }
 
 .codeCraftLogo {

@@ -24,7 +24,8 @@ body {
 }
 
 #header-section h1 {
-    margin-bottom: 20px;
+    display: block;
+    margin-bottom: 15px auto;
     text-transform: uppercase;
     color: #2498b1;
     font-size: 50px;
@@ -59,6 +60,7 @@ body {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
+    border: none;
 }
 
 .technology {

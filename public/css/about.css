@@ -20,8 +20,8 @@ body {
     border-radius: 5px;
 }
 
-h1 {
-    display: inline-block;
+#aboutStyle h1 {
+    display: block;
     margin: 20px auto;
     font-size: 60px;
     text-transform: uppercase;
@@ -37,16 +37,16 @@ h1 {
     color: #2498b1;
 }
 
-a {
+#aboutStyle a {
     color: #134f5c;
 }
 
-a:hover {
+#aboutStyle a:hover {
     color: #2498b1;
 }
 
 
-p {
+#aboutStyle p {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
