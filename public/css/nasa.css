@@ -1,3 +1,11 @@
+.nasaBody {
+    background-image: url("/imgs/space.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
 .nasa-cont h1 {
     color: white;
     font-size: 78px;
@@ -13,6 +21,7 @@
     background-color: grey;
     opacity: 0.9;
     font-weight: bold;
+    border: none;
 }
 
 .nasa-form {
