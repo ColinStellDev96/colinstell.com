@@ -6,7 +6,7 @@ var HTTPS = require('https');
 var fs = require('fs');
 
 var app = express();
-var secrets = require('./secrets.js');
+var secrets = require('./secrets');
 
 app.use(express.static('./public'));
 
