@@ -40,27 +40,27 @@ app.use(function(req, res, next) {
 });
 
 // USE THIS CODE ONCE PUSHED UP TO DROPLET
-// try {
-//     var httpsConfig = {
-//         key  : fs.readFileSync('/etc/letsencrypt/live/colinstell.com/privkey.pem'),
-//         cert : fs.readFileSync('/etc/letsencrypt/live/colinstell.com/cert.pem')
-//     };
-//     var httpsServer = HTTPS.createServer(httpsConfig, app);
-//     httpsServer.listen(443);
-//     var httpApp = express();
-//     httpApp.use(function(req, res){
-//         console.log(req.url);
-//         res.redirect('https://colinstell.com' + req.url);
-//     });
-//     httpApp.listen(80);
-// }
-// catch(error){
-//     console.log(error);
-//     console.log('could not set up HTTPS');
-//     app.listen(8080);
-// }
-// finally {
-//     console.log('this code runs regardless of whether the above code succeeded or failed');
-// }
+try {
+    var httpsConfig = {
+        key  : fs.readFileSync('/etc/letsencrypt/live/colinstell.com/privkey.pem'),
+        cert : fs.readFileSync('/etc/letsencrypt/live/colinstell.com/cert.pem')
+    };
+    var httpsServer = HTTPS.createServer(httpsConfig, app);
+    httpsServer.listen(443);
+    var httpApp = express();
+    httpApp.use(function(req, res){
+        console.log(req.url);
+        res.redirect('https://colinstell.com' + req.url);
+    });
+    httpApp.listen(80);
+}
+catch(error){
+    console.log(error);
+    console.log('could not set up HTTPS');
+    app.listen(8080);
+}
+finally {
+    console.log('this code runs regardless of whether the above code succeeded or failed');
+}
 
-app.listen(80);
+// app.listen(80);
