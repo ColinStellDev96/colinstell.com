@@ -57,7 +57,7 @@ try {
 catch(error){
     console.log(error);
     console.log('could not set up HTTPS');
-    app.listen(8080);
+    app.listen(8000);
 }
 finally {
     console.log('this code runs regardless of whether the above code succeeded or failed');
