@@ -1,6 +1,9 @@
 var express = require('express');
 var request = require('request');
 var bodyParser = require('body-parser');
+var HTTP = require('http');
+var HTTPS = require('https');
+var fs = require('fs');
 
 var app = express();
 var secrets = require('./secrets.js');

@@ -40,16 +40,33 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     color: #2498b1;
-    border: solid 5px #134f5c;
-    border-radius: 10px;
+    border: none;
 }
 
 .projectP {
     padding: 10px;
-    border: solid 5px #134f5c;
-    border-radius: 10px;
+    border: none;
     font-size: 18px;
     text-align: left;
+}
+
+a {
+    color: #134f5c;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #2498b1;
+}
+
+a:focus {
+    color: #2498b1;
+}
+
+a:active {
+    color: #2498b1;
 }
 
 .codeCraftLogo {
