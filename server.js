@@ -6,7 +6,7 @@ var HTTPS = require('https');
 var fs = require('fs');
 
 var app = express();
-var secrets = require('./secrets');
+var secrets = require('./secrets.js');
 
 app.use(express.static('./public'));
 
@@ -66,4 +66,4 @@ app.use(function(req, res, next) {
 //     console.log('this code runs regardless of whether the above code succeeded or failed');
 // }
 
-app.listen(80);
+app.listen(8000);
