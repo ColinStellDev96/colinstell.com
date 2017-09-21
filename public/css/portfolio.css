@@ -88,6 +88,15 @@ a:active {
     font-weight: bold;
 }
 
+.resume a {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    color: #0a2b32;
+    font-weight: bold;
+}
+
 .resume i {
     font-size: 50px;
     text-align: center;
